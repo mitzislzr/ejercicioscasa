@@ -1,0 +1,53 @@
+
+:root{ 
+	 --azulterra: rgb(14,31,111);
+    --dorado: #AA8D38;
+ }
+.primera img {
+	height: 279px;
+	width:1400px;
+}
+.primera h1{
+	color: var(--azulterra) ;
+}
+.imagenes {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.imagenes img{
+	height: 300px;
+	width: auto;
+}
+.ingresar {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.letraschiquitas {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.formulario{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--azulterra);
+	color: white;
+	width: 700px;
+	align-content: center;
+	justify-content: center;
+	
+}
+	
+.formulario button{
+	background-color: var(--dorado);
+	color: white;
+	border-radius: 5px;
+	border-width: 0px;
+	height: 25px;
+	width: 70px;
+}

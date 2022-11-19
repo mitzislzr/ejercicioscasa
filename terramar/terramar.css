@@ -1,7 +1,36 @@
-body { background-color: rgb(14, 31, 111);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --azulterra: rgb(14,31,111);
+    --dorado: #AA8D38;
 }
+.img-fondo
+ { height: 700px;
+ 	background-image: url(https://scontent.fmex11-1.fna.fbcdn.net/v/t39.30808-6/293409612_127741653286690_2197808642410619769_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=EIbsJZoeEmkAX8R-ZS-&_nc_ht=scontent.fmex11-1.fna&oh=00_AfAQVm9R9qz_Szt6AOFMmSPozqVVH5s9KMEDnoz1jdURCQ&oe=637372AD); }
 
+body { background-color: white;
+}
+h1 { text-align: center; }
 
+.menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+   align-content: center;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: var(--azulterra);
+   height: 120px;
+   font-size: 25px;
+  } 
+.menu img{
+    font-size: 80px;
+    padding: 5px;
+}
+.menu a{
+    color: white;
+
+}
 
 
 

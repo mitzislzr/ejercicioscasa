@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@300;500;700&display=swap');
+/* asi mandamos a llamar la raiz de html */
+/* definicion de una variable */
+/* --nombrevariable: valor; */
+:root{
+	--fondo: rgb(255,251,247);
+	--verdematcha:  rgb(9,81,87);
+	--verdeclaro: rgb(107,180,84);
+	--gris: rgb(162,162,161);
+}
+body{
+	background-color: var(--fondo);
+}
+#logo {
+	height: 50px;
+	margin-left: 10px;
+}
+.sec2 {
+	margin-top: 200px;
+	text-align: center;
+}
+.sec2 h1{
+	color:  var(--verdematcha);
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Lobster Two';
+}
+.sec2 h3{
+	text-align: center;
+}
+.sec2 h5{
+	text-align: center;
+	font-size:20px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	color: var(--verdematcha);
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 100px;
+	background-color: var(--fondo);
+}
+header a {
+	color: var(--verdematcha);
+	margin: 7px;
+}
+.star {
+	height: 50px;
+	width: 120px;
+	background-color: var(--verdeclaro);
+	color: white;
+	border-radius: 5px;
+	border-width: 0px;
+	margin-right: 10px;
+}
+.sec2 img{
+	height: 600px;
+}
+.gris {
+	color: var(--gris);
+}
+.email{
+	background-color: var(--verdematcha);
+	color: white;
+	height: 55px;
+	width: 100px;
+	border-width: 0px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.input2{
+	height: 50px;
+	width:  300px;
+	border-radius: 5px;
+}
+
+.video {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+.video img{
+	height: auto;
+	width: 50px;
+
+}
+.textos h1{ 
+	color: var(--verdematcha);
+	font-family: 'Dancing Script';
+	font-size: 50px;
+ }
+
+ .tercera{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
+ }
+ .textos{
+ 	width: 30%;
+ 	font-family: 'Lobster Two';
+ 	font-size: 20px;
+ }
+.pa{
+	color: var(--gris);
+	font-family: 'Dancing Script';
+}
+.cuarta {
+	background-color: var(--verdematcha);
+	height: 800px;
+}
+.cuarta a{
+	color: var(--verdeclaro);
+}
+.cuarta h1{
+	font-family:'Dancing Script';
+	font-size: 25px;
+}
+.cuarta h2{
+	font-family: 'Lobster Two';
+	font-size: 20px;
+}
+.hijo1 {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 20px;
+	padding: 20px;
+	height: 350px;
+	}
+.hijo2 {display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin: 20px;
+	padding: 10px;
+	height: 350px;
+}
+.bebe{ background-color:white;
+	height: 89%;
+	width:40%;
+ }
+ .figura{
+ 	width: 50%;
+ 	 }
+.bebe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.text {
+	margin-left: 20px;
+}
